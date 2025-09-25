@@ -1,0 +1,16 @@
+[project]
+name = "skillsync"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docx>=0.2.4",
+    "fastapi>=0.117.1",
+    "openai>=1.109.1",
+    "pydantic>=2.11.9",
+    "pypdf>=6.1.0",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.37.0",
+]
