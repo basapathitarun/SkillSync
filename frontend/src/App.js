@@ -10,7 +10,7 @@ function App() {
   const [error, setError] = useState('');
 
   // Update this URL to your Render backend URL after deployment
-  const API_URL = 'http://127.0.0.1:8000';
+  const API_URL = 'https://skillsync-vkn0.onrender.com';
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
